@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "testmod:chiseled_end_stone_bricks",
+    "testmod:end_sapphire_ore",
+    "testmod:sapphire_block",
+    "testmod:end_lamina",
+    "testmod:end_slate",
+    "testmod:end_stone_slab",
+    "testmod:cosmic_bricks"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+    "item.testmod.heart_stone": "Heart Stone",
+    "item.testmod.sapphire": "Sapphire",
+    "item.testmod.cosmic_clay_ball": "Cosmic Clay",
+    "item.testmod.cosmic_brick": "Cosmic Brick",
+
+    "item.testmod.heart_diamond_sword": "Heart Diamond Sword",
+    "item.testmod.heart_diamond_axe": "Heart Diamond Axe",
+
+    "block.testmod.chiseled_end_stone_bricks": "Chiseled End Stone Bricks",
+    "block.testmod.sapphire_block": "Block of Sapphire",
+    "block.testmod.dusk_rylium": "Dusk Rylium",
+    "block.testmod.end_lamina": "End Lamina",
+    "block.testmod.end_grime": "End Grime",
+    "block.testmod.end_stone_slab": "End Stone Slab",
+    "block.testmod.end_slate": "End Slate",
+    "block.testmod.cosmic_clay": "Cosmic Clay",
+    "block.testmod.cosmic_bricks": "Cosmic Bricks",
+    "block.testmod.cosmic_brick_stairs": "Cosmic Brick Stairs",
+    "block.testmod.cosmic_brick_slab": "Cosmic Brick Slab",
+    "block.testmod.cosmic_brick_wall": "Cosmic Brick Wall",
+    "block.testmod.cosmic_torch": "Cosmic Torch",
+    "block.testmod.cosmic_wall_torch": "Cosmic Wall Torch",
+    "block.testmod.cosmic_lantern": "Cosmic Lantern",
+    "block.testmod.cosmic_fire": "Cosmic Fire",
+    "block.testmod.end_sapphire_ore": "End Sapphire Ore",
+    "block.testmod.end_iron_ore": "End Iron Ore",
+
+    "itemgroup.sapphire": "Test Mod Group"
+}

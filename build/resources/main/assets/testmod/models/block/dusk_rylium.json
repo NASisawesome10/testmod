@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "testmod:block/dusk_rylium_side",
+    "down": "testmod:block/end_stone",
+    "up": "testmod:block/dusk_rylium_top",
+    "north": "testmod:block/dusk_rylium_side",
+    "east": "testmod:block/dusk_rylium_side",
+    "south": "testmod:block/dusk_rylium_side",
+    "west": "testmod:block/dusk_rylium_side"
+  }
+}

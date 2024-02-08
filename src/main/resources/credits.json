@@ -1,0 +1,18 @@
+{
+	"testmod-1.20.x": {
+		"title": "Mod",
+		"author": "NASisawesome10",
+		"link": "https://linktr.ee/nasisawesome10"
+	},
+	"testmod-1.20.x\\src\\main\\resources\\assets\\testmod\\sounds\\dig\\end_stone": {
+		"title": "End Stone Digging and Placing sound effects.",
+		"author": "gristi",
+		"link": "https://freesound.org/people/gristi/sounds/562192/"
+	},
+	"testmod-1.20.x\\src\\main\\resources\\assets\\testmod\\sounds\\step\\end_stone": {
+		"title": "End Stone Walking sound effects.",
+		"author": "florianreichelt",
+		"link": "https://www.instagram.com/florianreichelt/"
+	}
+
+}

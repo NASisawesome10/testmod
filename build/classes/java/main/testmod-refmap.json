@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "net/nasisawesome10/testmod/mixin/BlocksMixin": {
+      "(Lnet/minecraft/block/AbstractBlock$Settings;)Lnet/minecraft/block/Block;": "(Lnet/minecraft/class_4970$class_2251;)Lnet/minecraft/class_2248;",
+      "<clinit>": "Lnet/minecraft/class_2246;<clinit>()V"
+    },
+    "net/nasisawesome10/testmod/mixin/ExampleMixin": {
+      "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/nasisawesome10/testmod/mixin/BlocksMixin": {
+        "(Lnet/minecraft/block/AbstractBlock$Settings;)Lnet/minecraft/block/Block;": "(Lnet/minecraft/class_4970$class_2251;)Lnet/minecraft/class_2248;",
+        "<clinit>": "Lnet/minecraft/class_2246;<clinit>()V"
+      },
+      "net/nasisawesome10/testmod/mixin/ExampleMixin": {
+        "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+      }
+    }
+  }
+}

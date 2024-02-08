@@ -1,0 +1,50 @@
+/locate biome minecraft:end_barrens
+/tp @s -713 67 749
+/execute in minecraft:the_end run tp ~ ~ ~
+/locate biome minecraft:end_barrens
+/tp @s -734 62 735
+/execute in minecraft:the_end run tp ~ ~ ~
+/locate biome minecraft:end_barrens
+/tp @s 760 62 728
+/effect give Player780 minecraft:night_vision infinite 255
+/execute in minecraft:the_end run tp ~ ~ ~
+/locate biome minecraft:end_barrens
+/tp @s -706 63 744
+/effect give Player480 minecraft:night_vision infinite 255 true
+/execute in minecraft:the_end run tp ~ ~ ~
+/locate biome minecraft:end_barrens
+/tp @s -711 63 745
+/execute in minecraft:the_end run tp ~ ~ ~
+/locate biome minecraft:end_barrens
+/tp @s 758 62 731
+/effect give Player567 minecraft:night_vision infinite 255 true
+/effect clear
+/effect give Player309 minecraft:night_vision infinite 255 true
+/gamerule doMobSpawning false
+/effect clear
+/effect give Player309 minecraft:night_vision infinite 255 true
+/effect give @p minecraft:night_vision infinite 255 true
+/effect clear
+/effect give Player598 minecraft:regeneration 3 255 true
+/effect give @p minecraft:regeneration 3 255 true
+/effect give @p minecraft:saturation 3 255 true
+/effect give @p minecraft:regeneration 3 255 true
+/effect give @p minecraft:saturation 3 255 true
+/gamerule mobGriefing false
+/enchant @p minecraft:blast_protection 4
+/effect give @p minecraft:saturation 3 255 true
+/effect give @p minecraft:regeneration 3 255 true
+/enchant @p minecraft:blast_protection 4
+/gamerule doDaylightCycle false
+/time set noon
+/effect give @p minecraft:regeneration 3 255 true
+/effect give @p minecraft:saturation 3 255 true
+/effect give @p minecraft:regeneration 3 255 true
+/effect give @p minecraft:saturation 3 255 true
+/setblock ~ ~ ~ minecraft:end_portal
+/give Player231 testmod:cosmic_torch
+/gamerule keepInventory true
+/kill
+/time set midnight
+/enchant @p minecraft:protection 4
+/time set noon

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "S",
+    "C"
+  ],
+  "key": {
+    "X": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "testmod:cosmic_clay"
+    }
+  },
+  "result": {
+    "item": "testmod:cosmic_torch_item",
+    "count": 4
+  }
+}

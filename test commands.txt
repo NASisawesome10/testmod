@@ -1,0 +1,9 @@
+/execute in minecraft:the_end run tp ~ ~ ~
+
+-3650479361561560326
+
+/locate biome minecraft:end_barrens
+
+FIX END SLATE PLACING AND BREAKING SOUNDS
+
+REUCE SQUISHING SOUND FOR ONE OF THE WALKING SOUNDS ON END SLATE WITH MIXINS

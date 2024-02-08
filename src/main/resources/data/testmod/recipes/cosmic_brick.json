@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "testmod:cosmic_clay_ball"
+  },
+  "result": "testmod:cosmic_brick",
+  "experience": 0.3,
+  "cookingtime": 200
+}

@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "net.nasisawesome10.testmod.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"BlocksMixin",
+		"DamageUtilMixin"
+	],
+	"client": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "testmod:cosmic_brick"
+    }
+  },
+  "result": {
+    "item": "testmod:cosmic_bricks"
+  }
+}

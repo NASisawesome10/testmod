@@ -1,0 +1,3 @@
+v1	named	intermediary
+METHOD	net/nasisawesome10/testmod/mixin/DamageUtilMixin	(FFF)F	getDamageLeft	method_5496
+METHOD	net/nasisawesome10/testmod/mixin/DamageUtilMixin	(FF)F	getInflictedDamage	method_5497

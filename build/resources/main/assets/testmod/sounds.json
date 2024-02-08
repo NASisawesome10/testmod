@@ -1,0 +1,53 @@
+{
+  "block.end_stone.break": {
+    "subtitle": "subtitles.block.generic.break",
+    "sounds": [
+      "testmod:dig/end_stone1",
+      "testmod:dig/end_stone2",
+      "testmod:dig/end_stone3",
+      "testmod:dig/end_stone4"
+    ]
+  },
+  "block.end_stone.step": {
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      "testmod:step/end_stone1",
+      "testmod:step/end_stone2",
+      "testmod:step/end_stone3",
+      "testmod:step/end_stone4",
+      "testmod:step/end_stone5",
+      "testmod:step/end_stone6"
+    ]
+  },
+  "block.end_stone.place": {
+    "subtitle": "subtitles.block.generic.place",
+    "sounds": [
+      "testmod:dig/end_stone1",
+      "testmod:dig/end_stone2",
+      "testmod:dig/end_stone3",
+      "testmod:dig/end_stone4"
+    ]
+  },
+  "block.end_stone.hit": {
+    "subtitle": "subtitles.block.generic.hit",
+    "sounds": [
+      "testmod:step/end_stone1",
+      "testmod:step/end_stone2",
+      "testmod:step/end_stone3",
+      "testmod:step/end_stone4",
+      "testmod:step/end_stone5",
+      "testmod:step/end_stone6"
+    ]
+  },
+  "block.end_stone.fall": {
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      "testmod:step/end_stone1",
+      "testmod:step/end_stone2",
+      "testmod:step/end_stone3",
+      "testmod:step/end_stone4",
+      "testmod:step/end_stone5",
+      "testmod:step/end_stone6"
+    ]
+  }
+}

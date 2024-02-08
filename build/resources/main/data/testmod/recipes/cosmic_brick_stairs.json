@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "testmod:cosmic_bricks"
+    }
+  },
+  "result": {
+    "item": "testmod:cosmic_brick_stairs",
+    "count": 4
+  }
+}
