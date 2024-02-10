@@ -6,6 +6,7 @@ import net.nasisawesome10.testmod.block.ModBlocks;
 import net.nasisawesome10.testmod.item.ModItemGroups;
 import net.nasisawesome10.testmod.item.ModItems;
 import net.nasisawesome10.testmod.sound.ModSounds;
+import net.nasisawesome10.testmod.util.ModTags;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import net.nasisawesome10.testmod.world.gen.ModWorldGeneration;

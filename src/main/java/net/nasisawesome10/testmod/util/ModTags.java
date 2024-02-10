@@ -8,9 +8,11 @@ import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 
 public class ModTags {
+    public static TagKey<Block> COSMIC_FIRE_BASE_BLOCKS;
+
     public static class Blocks {
-        //public static final TagKey<Block> METAL_DETECTOR_DETECTABLE_BLOCKS =
-                //createTag("metal_detector_detectable_blocks");
+        public static final TagKey<Block> COSMIC_FIRE_BASE_BLOCKS =
+                createTag("cosmic_fire_base_blocks");
 
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, new Identifier(TestMod.MOD_ID, name));

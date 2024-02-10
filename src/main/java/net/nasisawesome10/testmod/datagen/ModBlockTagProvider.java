@@ -2,6 +2,7 @@ package net.nasisawesome10.testmod.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.block.Blocks;
 import net.nasisawesome10.testmod.block.ModBlocks;
 import net.nasisawesome10.testmod.util.ModTags;
 import net.minecraft.registry.RegistryKeys;
@@ -19,6 +20,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
+        getOrCreateTagBuilder(ModTags.Blocks.COSMIC_FIRE_BASE_BLOCKS)
+                .add(Blocks.END_STONE)
+                .add(ModBlocks.COSMIC_CLAY);
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.CHISELED_END_STONE_BRICKS)
                 .add(ModBlocks.END_SAPPHIRE_ORE)
