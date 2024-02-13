@@ -11,6 +11,7 @@ import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 
+import javax.swing.text.html.HTML;
 import java.util.concurrent.CompletableFuture;
 
 public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
@@ -20,10 +21,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
-        getOrCreateTagBuilder(ModTags.Blocks.COSMIC_FIRE_BASE_BLOCKS)
+        this.getOrCreateTagBuilder(ModBlockTags.COSMIC_FIRE_BASE_BLOCKS)
                 .add(Blocks.END_STONE)
                 .add(ModBlocks.COSMIC_CLAY);
-        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+        this.getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.CHISELED_END_STONE_BRICKS)
                 .add(ModBlocks.END_SAPPHIRE_ORE)
                 .add(ModBlocks.SAPPHIRE_BLOCK)
@@ -32,10 +33,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.END_STONE_SLAB)
                 .add(ModBlocks.COSMIC_BRICKS);
 
-        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+        this.getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.END_SAPPHIRE_ORE);
 
-        getOrCreateTagBuilder(BlockTags.WALLS)
+        this.getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.COSMIC_BRICK_WALL);
     }
 }

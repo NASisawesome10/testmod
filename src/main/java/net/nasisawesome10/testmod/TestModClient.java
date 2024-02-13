@@ -18,7 +18,7 @@ public class TestModClient implements ClientModInitializer {
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.COSMIC_TORCH, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.COSMIC_WALL_TORCH, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.COSMIC_FIRE, RenderLayer.getCutout());
+        //BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.COSMIC_FIRE, RenderLayer.getCutout());
         ParticleFactoryRegistry.getInstance().register(ModParticleTypes.COSMIC_FIRE_FLAME, CosmicFireFlame.Factory::new);
     }
 }

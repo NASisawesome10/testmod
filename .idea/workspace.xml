@@ -5,22 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c06ff1-0225-485c-bc73-0f0bdfb41698" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/block/CosmicFireBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/mixin/AbstractFireBlockMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/testmod/blockstates/cosmic_fire.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/testmod/models/block/cosmic_fire_floor0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/testmod/models/block/cosmic_fire_floor1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/testmod/models/block/cosmic_fire_side0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/testmod/models/block/cosmic_fire_side1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/testmod/models/block/cosmic_fire_side_alt0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/testmod/models/block/cosmic_fire_side_alt1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/testmod/textures/block/cosmic_fire_0.png.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/testmod/textures/block/cosmic_fire_1.png.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/fire.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/testmod/tags/blocks/cosmic_fire_base_blocks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/access/CropBlockAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/mixin/CropBlockMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/mixin/ExperienceBottleEntityMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/mixin/MobEntityMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/mixin/PlayerEntityMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/testmod/models/block/cosmic_fire_up0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/testmod/models/block/cosmic_fire_up1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/testmod/models/block/cosmic_fire_up_alt0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/testmod/models/block/cosmic_fire_up_alt1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
@@ -28,21 +23,17 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-67dccd55cc/1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2/minecraft-merged-67dccd55cc-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2-sources.lmap" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-67dccd55cc/1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2/minecraft-merged-67dccd55cc-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2-sources.lmap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/testmod-refmap.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/testmod-refmap.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/credits.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/loom-cache/mixin-map-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.main.tiny" beforeDir="false" afterPath="$PROJECT_DIR$/build/loom-cache/mixin-map-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.main.tiny" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/testmod/blockstates/cosmic_fire.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/testmod/blockstates/cosmic_fire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/testmod/texts/splashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/testmod/texts/splashes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/testmod.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/testmod.mixins.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/XaeroWorldMap/New World/DIM1/cache_1/0_0.xwmc.outdated" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/XaeroWorldMap/New World/DIM1/cache_1/1_-1.xwmc.outdated" beforeDir="false" afterPath="$PROJECT_DIR$/run/XaeroWorldMap/New World/DIM1/cache_1/1_-1.xwmc.outdated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/XaeroWorldMap/New World/DIM1/cache_1/1_-2.xwmc.outdated" beforeDir="false" afterPath="$PROJECT_DIR$/run/XaeroWorldMap/New World/DIM1/cache_1/1_-2.xwmc.outdated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/XaeroWorldMap/New World/DIM1/cache_1/2_-1.xwmc.outdated" beforeDir="false" afterPath="$PROJECT_DIR$/run/XaeroWorldMap/New World/DIM1/cache_1/2_-1.xwmc.outdated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/XaeroWorldMap/New World/DIM1/cache_1/2_-2.xwmc.outdated" beforeDir="false" afterPath="$PROJECT_DIR$/run/XaeroWorldMap/New World/DIM1/cache_1/2_-2.xwmc.outdated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/XaeroWorldMap/New Worlddthgj/null/cache_1/-1_-1.xwmc" beforeDir="false" afterPath="$PROJECT_DIR$/run/XaeroWorldMap/New Worlddthgj/null/cache_1/-1_-1.xwmc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/XaeroWorldMap/New Worlddthgj/null/cache_1/-1_0.xwmc" beforeDir="false" afterPath="$PROJECT_DIR$/run/XaeroWorldMap/New Worlddthgj/null/cache_1/-1_0.xwmc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/XaeroWorldMap/New Worlddthgj/null/cache_1/0_-1.xwmc" beforeDir="false" afterPath="$PROJECT_DIR$/run/XaeroWorldMap/New Worlddthgj/null/cache_1/0_-1.xwmc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/XaeroWorldMap/New Worlddthgj/null/cache_1/0_0.xwmc" beforeDir="false" afterPath="$PROJECT_DIR$/run/XaeroWorldMap/New Worlddthgj/null/cache_1/0_0.xwmc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/XaeroWorldMap/New World2/null/cache_1/-1_-1.xwmc.outdated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/XaeroWorldMap/New World2/null/cache_1/-1_0.xwmc.outdated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/XaeroWorldMap/New World2/null/cache_1/0_-1.xwmc.outdated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/XaeroWorldMap/New World2/null/cache_1/0_0.xwmc.outdated" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/command_history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/command_history.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/iris.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/iris.properties" afterDir="false" />
@@ -52,54 +43,43 @@
       <change beforePath="$PROJECT_DIR$/run/config/roughlyenoughitems/pinyin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/roughlyenoughitems/pinyin.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/roughlyenoughitems/pinyin_double.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/roughlyenoughitems/pinyin_double.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/xaerominimap_entities.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/xaerominimap_entities.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-02-08-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-02-08-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-02-09-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-02-09-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-02-09-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-02-09-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-02-09-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-02-09-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-02-09-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-02-09-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-02-09-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-02-09-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-02-09-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-02-09-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-02-09-7.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/region/r.0.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/region/r.0.-2.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/region/r.1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/region/r.1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/region/r.1.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/region/r.1.-2.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/region/r.2.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/region/r.2.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/region/r.2.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/region/r.2.-2.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New Worlddthgj/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New Worlddthgj/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New Worlddthgj/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New Worlddthgj/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New Worlddthgj/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New Worlddthgj/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New Worlddthgj/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New Worlddthgj/data/random_sequences.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New Worlddthgj/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New Worlddthgj/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New Worlddthgj/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New Worlddthgj/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New Worlddthgj/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New Worlddthgj/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New Worlddthgj/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New Worlddthgj/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New Worlddthgj/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New Worlddthgj/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New Worlddthgj/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New Worlddthgj/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New Worlddthgj/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New Worlddthgj/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New Worlddthgj/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New Worlddthgj/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New Worlddthgj/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New Worlddthgj/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New Worlddthgj/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New Worlddthgj/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World2/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World2/DIM-1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World2/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World2/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World2/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World2/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World2/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World2/entities/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World2/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World2/entities/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World2/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World2/entities/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World2/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World2/entities/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World2/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World2/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World2/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World2/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World2/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World2/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World2/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World2/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World2/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World2/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World2/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World2/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World2/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World2/session.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/shaderpacks/ComplementaryReimagined_r5.1.1.zip.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/shaderpacks/ComplementaryReimagined_r5.1.1.zip.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/TestMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/TestMod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/TestModClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/TestModClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/block/CosmicFireBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/block/CosmicFireBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/block/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/block/ModBlocks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/datagen/ModBlockTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/datagen/ModBlockTagProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/mixin/BlocksMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/mixin/BlocksMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/util/ModTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/util/ModTags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/mixin/AbstractFireBlockMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/nasisawesome10/testmod/mixin/AbstractFireBlockMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/testmod/blockstates/cosmic_fire.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/testmod/blockstates/cosmic_fire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/testmod/texts/splashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/testmod/texts/splashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/testmod.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testmod.mixins.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,6 +133,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-67dccd55cc/1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2/minecraft-merged-67dccd55cc-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2-sources.jar!/net/minecraft/block/SoulFireBlock.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-67dccd55cc/1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2/minecraft-merged-67dccd55cc-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2-sources.jar!/net/minecraft/data/client/BlockStateModelGenerator.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -163,23 +147,23 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Minecraft Client.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build testmod.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.testmod [runClient].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nick/Documents/GitHub/testmod/src/main/resources/assets/testmod/models/block&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Minecraft Client.executor": "Run",
+    "Gradle.Build testmod.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.testmod [runClient].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Nick/Documents/GitHub/testmod/src/main/resources/assets/testmod/models/block",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Nick\Documents\GitHub\testmod\src\main\resources\assets\testmod\models\block" />

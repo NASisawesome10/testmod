@@ -21,13 +21,16 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(AbstractFireBlock.class)
 public class AbstractFireBlockMixin {
-    @Inject(at = @At("HEAD"), method = "getState")
-    private static /*is the target method static? Otherwise you should not declare the injection static*/ void mixin(BlockView world, BlockPos pos, CallbackInfoReturnable ci) {
+    /*
+    @Inject(method = "getState", at = @At("TAIL"), cancellable = true)
+    private static void getDragonFireState(BlockView world, BlockPos pos, CallbackInfoReturnable<BlockState> ci) {
         BlockPos blockPos = pos.down();
         BlockState blockState = world.getBlockState(blockPos);
         if(CosmicFireBlock.isCosmicBase(blockState)) {
             ci.setReturnValue(ModBlocks.COSMIC_FIRE.getDefaultState());
         }
     }
+
+     */
 
 }

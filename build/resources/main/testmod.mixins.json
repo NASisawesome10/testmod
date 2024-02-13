@@ -4,9 +4,12 @@
 	"package": "net.nasisawesome10.testmod.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
+		"AbstractFireBlockMixin",
 		"BlocksMixin",
-		"DamageUtilMixin"
-
+		"DamageUtilMixin",
+		"ExperienceBottleEntityMixin",
+		"MobEntityMixin",
+		"PlayerEntityMixin"
 	],
 	"client": [
 		"ExampleMixin"

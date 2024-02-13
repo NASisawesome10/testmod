@@ -51,10 +51,12 @@ public class ModBlocks {
             new TorchBlock(ModParticleTypes.COSMIC_FIRE_FLAME, AbstractBlock.Settings.create().noCollision().breakInstantly().luminance(state -> 15).sounds(BlockSoundGroup.WOOD).pistonBehavior(PistonBehavior.DESTROY).nonOpaque()));
     public static final Block COSMIC_WALL_TORCH = registerBlock("cosmic_wall_torch",
             new WallTorchBlock(ModParticleTypes.COSMIC_FIRE_FLAME, AbstractBlock.Settings.create().noCollision().breakInstantly().luminance(state -> 15).sounds(BlockSoundGroup.WOOD).dropsLike(COSMIC_TORCH).pistonBehavior(PistonBehavior.DESTROY).nonOpaque()));
+    /*
     public static final Block COSMIC_FIRE = registerBlock("cosmic_fire",
             new CosmicFireBlock(AbstractBlock.Settings.create().mapColor(MapColor.MAGENTA).replaceable().noCollision().breakInstantly().luminance((state) -> {
                 return 15;
             }).sounds(BlockSoundGroup.WOOL).pistonBehavior(PistonBehavior.DESTROY)));
+     */
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(TestMod.MOD_ID, name), block);

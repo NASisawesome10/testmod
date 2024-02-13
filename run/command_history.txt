@@ -1,50 +1,50 @@
-/effect give Player567 minecraft:night_vision infinite 255 true
-/effect clear
-/effect give Player309 minecraft:night_vision infinite 255 true
-/gamerule doMobSpawning false
-/effect clear
-/effect give Player309 minecraft:night_vision infinite 255 true
-/effect give @p minecraft:night_vision infinite 255 true
-/effect clear
-/effect give Player598 minecraft:regeneration 3 255 true
-/effect give @p minecraft:regeneration 3 255 true
-/effect give @p minecraft:saturation 3 255 true
-/effect give @p minecraft:regeneration 3 255 true
-/effect give @p minecraft:saturation 3 255 true
-/gamerule mobGriefing false
-/enchant @p minecraft:blast_protection 4
-/effect give @p minecraft:saturation 3 255 true
-/effect give @p minecraft:regeneration 3 255 true
-/enchant @p minecraft:blast_protection 4
-/gamerule doDaylightCycle false
+/
+/setblock ~ ~ ~ testmod:cosmic_fire
 /time set noon
-/effect give @p minecraft:regeneration 3 255 true
+/xp set @p 0
+/xp set @p 0 levels
+/xp set @p 0
+/xp set @p 0 levels
+/xp set @p 0
+/xp set @p 0 levels
+/xp add @p 10 points
+/
+/xp add @p 10 points
+/xp set @p 0 levels
+/xp add @p 100 points
+/xp set @p 0 levels
+/xp set @p 0
+/xp add @p 100 points
+/xp set @p 0
+/xp set @p 0 levels
+/xp add @p 100 points
+/xp set @p 0 levels
+/xp set @p 0
+/xp add @p 100
+/xp set @p 0
+/xp set @p 0 levels
+/xp set @p 0
+/xp set @p 0 levels
+/xp add @p 100
+/xp set @p 0
+/xp set @p 0 levels
+/xp add 7
+/xp add @p 7
+/xp set @p 0 levels
+/xp set @p 0
+/xp add @p 7
+/xp set @p 0
+/xp add @p 100
+/xp set @p 0 levels
+/xp set @p 0
+/xp set @p 0 levels
+/xp add @p 12000
 /effect give @p minecraft:saturation 3 255 true
 /effect give @p minecraft:regeneration 3 255 true
-/effect give @p minecraft:saturation 3 255 true
-/setblock ~ ~ ~ minecraft:end_portal
-/give Player231 testmod:cosmic_torch
-/gamerule keepInventory true
-/kill
-/time set midnight
-/enchant @p minecraft:protection 4
-/time set noon
-/setblock ~ ~ ~ testmod:cosmic_fire
-/setblock ~ ~ ~ minecraft:soul_fire
-/setblock ~ ~ ~ minecraft:fire
-/setblock ~ ~ ~ minecraft:soul_fire
-/setblock ~ ~ ~ testmod:cosmic_fire
-/setblock ~ ~ ~ minecraft:soul_fire
-/setblock ~ ~ ~ minecraft:fire
-/setblock ~ ~ ~ minecraft:soul_fire
-/setblock ~ ~ ~ testmod:cosmic_fire
-/setblock ~ ~ ~ minecraft:soul_fire
-/setblock ~ ~ ~ testmod:cosmic_fire
-/time set midnight
-/setblock ~ ~ ~ testmod:cosmic_fire
-/give @p minecraft:fire
-/give @p minecraft:fire_block
-/give @p testmod:cosmic_fire
-/setblock ~ ~ ~ testmod:cosmic_fire
-/give @p testmod:cosmic_fire
-/setblock ~ ~ ~ testmod:cosmic_fire
+/xp set @p 0 levels
+/xp set @p 0
+/xp set @p 0 levels
+/xp set @p 0
+/xp add @p 100
+/xp set @p 0
+/xp set @p 0 levels

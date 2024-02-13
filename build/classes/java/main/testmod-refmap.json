@@ -1,27 +1,33 @@
 {
   "mappings": {
-    "net/nasisawesome10/testmod/mixin/AbstractFireBlockMixin": {
-      "getState": "Lnet/minecraft/class_4770;method_24416(Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Lnet/minecraft/class_2680;"
-    },
     "net/nasisawesome10/testmod/mixin/BlocksMixin": {
       "(Lnet/minecraft/block/AbstractBlock$Settings;)Lnet/minecraft/block/Block;": "(Lnet/minecraft/class_4970$class_2251;)Lnet/minecraft/class_2248;",
       "<clinit>": "Lnet/minecraft/class_2246;<clinit>()V"
     },
     "net/nasisawesome10/testmod/mixin/ExampleMixin": {
       "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+    },
+    "net/nasisawesome10/testmod/mixin/ExperienceBottleEntityMixin": {
+      "onCollision": "Lnet/minecraft/class_1683;method_7488(Lnet/minecraft/class_239;)V"
+    },
+    "net/nasisawesome10/testmod/mixin/MobEntityMixin": {
+      "getXpToDrop": "Lnet/minecraft/class_1308;method_6110()I"
     }
   },
   "data": {
     "named:intermediary": {
-      "net/nasisawesome10/testmod/mixin/AbstractFireBlockMixin": {
-        "getState": "Lnet/minecraft/class_4770;method_24416(Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Lnet/minecraft/class_2680;"
-      },
       "net/nasisawesome10/testmod/mixin/BlocksMixin": {
         "(Lnet/minecraft/block/AbstractBlock$Settings;)Lnet/minecraft/block/Block;": "(Lnet/minecraft/class_4970$class_2251;)Lnet/minecraft/class_2248;",
         "<clinit>": "Lnet/minecraft/class_2246;<clinit>()V"
       },
       "net/nasisawesome10/testmod/mixin/ExampleMixin": {
         "loadWorld": "Lnet/minecraft/server/MinecraftServer;method_3735()V"
+      },
+      "net/nasisawesome10/testmod/mixin/ExperienceBottleEntityMixin": {
+        "onCollision": "Lnet/minecraft/class_1683;method_7488(Lnet/minecraft/class_239;)V"
+      },
+      "net/nasisawesome10/testmod/mixin/MobEntityMixin": {
+        "getXpToDrop": "Lnet/minecraft/class_1308;method_6110()I"
       }
     }
   }
