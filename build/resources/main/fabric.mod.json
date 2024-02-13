@@ -39,7 +39,7 @@
 	},
 	"custom": {
 		"loom:injected_interfaces": {
-			"net/minecraft/class_3609": ["net/fabricmc/example/BucketEmptySoundGetter"]
+			"net/minecraft/class_2302": ["net/nasisawesome10/testmod/access/CropBlockAccess"]
 		}
 	}
 }

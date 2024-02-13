@@ -10,6 +10,9 @@
     "net/nasisawesome10/testmod/mixin/ExperienceBottleEntityMixin": {
       "onCollision": "Lnet/minecraft/class_1683;method_7488(Lnet/minecraft/class_239;)V"
     },
+    "net/nasisawesome10/testmod/mixin/MendingEnchantmentMixin": {
+      "isTreasure": "Lnet/minecraft/class_1899;method_8193()Z"
+    },
     "net/nasisawesome10/testmod/mixin/MobEntityMixin": {
       "getXpToDrop": "Lnet/minecraft/class_1308;method_6110()I"
     }
@@ -25,6 +28,9 @@
       },
       "net/nasisawesome10/testmod/mixin/ExperienceBottleEntityMixin": {
         "onCollision": "Lnet/minecraft/class_1683;method_7488(Lnet/minecraft/class_239;)V"
+      },
+      "net/nasisawesome10/testmod/mixin/MendingEnchantmentMixin": {
+        "isTreasure": "Lnet/minecraft/class_1899;method_8193()Z"
       },
       "net/nasisawesome10/testmod/mixin/MobEntityMixin": {
         "getXpToDrop": "Lnet/minecraft/class_1308;method_6110()I"
