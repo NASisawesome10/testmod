@@ -1,5 +1,18 @@
 {
   "mappings": {
+    "net/nasisawesome10/testmod/mixin/AnvilScreenHandlerMixin": {
+      "Lnet/minecraft/entity/player/PlayerAbilities;creativeMode:Z": "Lnet/minecraft/class_1656;field_7477:Z",
+      "Lnet/minecraft/screen/Property;get()I": "Lnet/minecraft/class_3915;method_17407()I",
+      "canTakeOutput": "Lnet/minecraft/class_1706;method_24927(Lnet/minecraft/class_1657;Z)Z",
+      "getLevelCost": "Lnet/minecraft/class_1706;method_17369()I",
+      "getNextCost": "Lnet/minecraft/class_1706;method_20398(I)I",
+      "onTakeOutput": "Lnet/minecraft/class_1706;method_24923(Lnet/minecraft/class_1657;Lnet/minecraft/class_1799;)V",
+      "updateResult": "Lnet/minecraft/class_1706;method_24928()V"
+    },
+    "net/nasisawesome10/testmod/mixin/AnvilScreenMixin": {
+      "Lnet/minecraft/entity/player/PlayerAbilities;creativeMode:Z": "Lnet/minecraft/class_1656;field_7477:Z",
+      "drawForeground": "Lnet/minecraft/class_471;method_2388(Lnet/minecraft/class_332;II)V"
+    },
     "net/nasisawesome10/testmod/mixin/BlocksMixin": {
       "(Lnet/minecraft/block/AbstractBlock$Settings;)Lnet/minecraft/block/Block;": "(Lnet/minecraft/class_4970$class_2251;)Lnet/minecraft/class_2248;",
       "<clinit>": "Lnet/minecraft/class_2246;<clinit>()V"
@@ -10,6 +23,12 @@
     "net/nasisawesome10/testmod/mixin/ExperienceBottleEntityMixin": {
       "onCollision": "Lnet/minecraft/class_1683;method_7488(Lnet/minecraft/class_239;)V"
     },
+    "net/nasisawesome10/testmod/mixin/ExperienceOrbEntityMixin": {
+      "getMendingRepairAmount": "Lnet/minecraft/class_1303;method_5917(I)I"
+    },
+    "net/nasisawesome10/testmod/mixin/ItemStackMixin": {
+      "getRepairCost": "Lnet/minecraft/class_1799;method_7928()I"
+    },
     "net/nasisawesome10/testmod/mixin/MendingEnchantmentMixin": {
       "isTreasure": "Lnet/minecraft/class_1899;method_8193()Z"
     },
@@ -19,6 +38,19 @@
   },
   "data": {
     "named:intermediary": {
+      "net/nasisawesome10/testmod/mixin/AnvilScreenHandlerMixin": {
+        "Lnet/minecraft/entity/player/PlayerAbilities;creativeMode:Z": "Lnet/minecraft/class_1656;field_7477:Z",
+        "Lnet/minecraft/screen/Property;get()I": "Lnet/minecraft/class_3915;method_17407()I",
+        "canTakeOutput": "Lnet/minecraft/class_1706;method_24927(Lnet/minecraft/class_1657;Z)Z",
+        "getLevelCost": "Lnet/minecraft/class_1706;method_17369()I",
+        "getNextCost": "Lnet/minecraft/class_1706;method_20398(I)I",
+        "onTakeOutput": "Lnet/minecraft/class_1706;method_24923(Lnet/minecraft/class_1657;Lnet/minecraft/class_1799;)V",
+        "updateResult": "Lnet/minecraft/class_1706;method_24928()V"
+      },
+      "net/nasisawesome10/testmod/mixin/AnvilScreenMixin": {
+        "Lnet/minecraft/entity/player/PlayerAbilities;creativeMode:Z": "Lnet/minecraft/class_1656;field_7477:Z",
+        "drawForeground": "Lnet/minecraft/class_471;method_2388(Lnet/minecraft/class_332;II)V"
+      },
       "net/nasisawesome10/testmod/mixin/BlocksMixin": {
         "(Lnet/minecraft/block/AbstractBlock$Settings;)Lnet/minecraft/block/Block;": "(Lnet/minecraft/class_4970$class_2251;)Lnet/minecraft/class_2248;",
         "<clinit>": "Lnet/minecraft/class_2246;<clinit>()V"
@@ -28,6 +60,12 @@
       },
       "net/nasisawesome10/testmod/mixin/ExperienceBottleEntityMixin": {
         "onCollision": "Lnet/minecraft/class_1683;method_7488(Lnet/minecraft/class_239;)V"
+      },
+      "net/nasisawesome10/testmod/mixin/ExperienceOrbEntityMixin": {
+        "getMendingRepairAmount": "Lnet/minecraft/class_1303;method_5917(I)I"
+      },
+      "net/nasisawesome10/testmod/mixin/ItemStackMixin": {
+        "getRepairCost": "Lnet/minecraft/class_1799;method_7928()I"
       },
       "net/nasisawesome10/testmod/mixin/MendingEnchantmentMixin": {
         "isTreasure": "Lnet/minecraft/class_1899;method_8193()Z"

@@ -5,15 +5,18 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "AbstractFireBlockMixin",
+    "AnvilScreenHandlerMixin",
     "BlocksMixin",
     "CropBlockMixin",
     "DamageUtilMixin",
     "ExperienceBottleEntityMixin",
+    "ItemStackMixin",
     "MendingEnchantmentMixin",
     "MobEntityMixin",
     "PlayerEntityMixin"
   ],
   "client": [
+    "AnvilScreenMixin",
     "ExampleMixin"
   ],
   "injectors": {

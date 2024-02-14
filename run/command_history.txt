@@ -1,27 +1,4 @@
 /xp set @p 0 levels
-/xp set @p 0
-/xp set @p 0 levels
-/xp add @p 10 points
-/
-/xp add @p 10 points
-/xp set @p 0 levels
-/xp add @p 100 points
-/xp set @p 0 levels
-/xp set @p 0
-/xp add @p 100 points
-/xp set @p 0
-/xp set @p 0 levels
-/xp add @p 100 points
-/xp set @p 0 levels
-/xp set @p 0
-/xp add @p 100
-/xp set @p 0
-/xp set @p 0 levels
-/xp set @p 0
-/xp set @p 0 levels
-/xp add @p 100
-/xp set @p 0
-/xp set @p 0 levels
 /xp add 7
 /xp add @p 7
 /xp set @p 0 levels
@@ -48,3 +25,26 @@
 /xp add @p 5000
 /xp set @p 0
 /xp set @p 0 levels
+/xp add @p 9999
+/effect give @p minecraft:haste infinite 99 true
+/effect clear
+/give @p netherite_sword{Damage:30}
+/give @p netherite_sword{Damage:300}
+/give @p netherite_sword{Damage:1500}
+/xp add @p 99999
+/give @p netherite_sword{Damage:1500,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3},{id:sweeping,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}
+/give @p netherite_sword{Damage:2400,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3},{id:sweeping,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}
+/give @p netherite_sword{Damage:24000,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3},{id:sweeping,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}
+/give @p netherite_sword{Damage:24000,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3},{id:sweeping,lvl:3},{id:unbreaking,lvl:3}]}
+/give @p netherite_sword{Damage:24000,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3}]}
+/give @p netherite_sword{Damage:200,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3}]}
+/give @p netherite_sword{Damage:2000,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3},{id:sweeping,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}
+/give @p netherite_sword{Damage:2000,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2}]}
+/give @p netherite_sword{Damage:2000}
+/give @p netherite_sword{Damage:2000,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3},{id:sweeping,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}
+/give @p minecraft:command_block
+/xp set @p 0
+/xp set @p 0 levels
+/give @p netherite_sword{Damage:2000,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3},{id:sweeping,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}
+/effect give @p minecraft:regeneration 3 255 true
+/effect give @p minecraft:saturation 3 255 true

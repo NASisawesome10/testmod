@@ -1,6 +1,10 @@
 v1	named	intermediary
+FIELD	net/nasisawesome10/testmod/mixin/AnvilScreenHandlerMixin	Ljava/lang/String;	newItemName	field_7774
+FIELD	net/nasisawesome10/testmod/mixin/AnvilScreenHandlerMixin	Lnet/minecraft/screen/Property;	levelCost	field_7770
+FIELD	net/nasisawesome10/testmod/mixin/AnvilScreenHandlerMixin	I	repairItemUsage	field_7776
 FIELD	net/nasisawesome10/testmod/mixin/MobEntityMixin	Lnet/minecraft/entity/LivingEntity;	target	field_6199
 FIELD	net/nasisawesome10/testmod/mixin/PlayerEntityMixin	I	experienceLevel	field_7520
+METHOD	net/nasisawesome10/testmod/mixin/AnvilScreenHandlerMixin	()I	getLevelCost	method_17369
 METHOD	net/nasisawesome10/testmod/mixin/DamageUtilMixin	(FFF)F	getDamageLeft	method_5496
 METHOD	net/nasisawesome10/testmod/mixin/DamageUtilMixin	(FF)F	getInflictedDamage	method_5497
 METHOD	net/nasisawesome10/testmod/mixin/PlayerEntityMixin	()I	getNextLevelExperience	method_7349

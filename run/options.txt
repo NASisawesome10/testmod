@@ -33,7 +33,7 @@ damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
 gamma:1.0
-renderDistance:18
+renderDistance:7
 simulationDistance:10
 entityDistanceScaling:1.0
 guiScale:2
@@ -123,12 +123,6 @@ key_key.hotbar.9:key.keyboard.9
 key_key.worldeditcui.toggle:key.keyboard.unknown
 key_key.worldeditcui.clear:key.keyboard.unknown
 key_key.worldeditcui.chunk:key.keyboard.unknown
-key_gui.xaero_open_map:key.keyboard.m
-key_gui.xaero_open_settings:key.keyboard.right.bracket
-key_gui.xaero_map_zoom_in:key.keyboard.unknown
-key_gui.xaero_map_zoom_out:key.keyboard.unknown
-key_gui.xaero_quick_confirm:key.keyboard.right.shift
-key_gui.xaero_toggle_dimension:key.keyboard.unknown
 key_key.jade.config:key.keyboard.keypad.0
 key_key.jade.show_overlay:key.keyboard.keypad.1
 key_key.jade.toggle_liquid:key.keyboard.keypad.2
@@ -155,6 +149,12 @@ key_gui.xaero_alternative_list_players:key.keyboard.unknown
 key_gui.xaero_toggle_tracked_players:key.keyboard.unknown
 key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown
 key_gui.xaero_minimap_settings:key.keyboard.y
+key_gui.xaero_open_map:key.keyboard.m
+key_gui.xaero_open_settings:key.keyboard.right.bracket
+key_gui.xaero_map_zoom_in:key.keyboard.unknown
+key_gui.xaero_map_zoom_out:key.keyboard.unknown
+key_gui.xaero_quick_confirm:key.keyboard.right.shift
+key_gui.xaero_toggle_dimension:key.keyboard.unknown
 key_key.camerautils.zoom:key.keyboard.z
 key_key.camerautils.third_person_cam_1:key.keyboard.f6
 key_key.camerautils.third_person_cam_2:key.keyboard.f7
