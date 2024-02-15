@@ -1,32 +1,3 @@
-/give @p minecraft:apple 64
-/damage @p 19
-/damage @p 17
-/damage @p 4
-/damage @p 17
-/gamerule keepInventory true
-/give @p minecraft:apple 64
-/damage @p 19
-/kill
-/damage @p 19
-/spawnpoint
-/kill
-/damage @p 19
-/effect give @p minecraft:hunger infinite 2 true
-/effect clear
-/damage 10
-/damage @p 10
-/give @p minecraft:potato
-/give @p minecraft:potato 65
-/effect give @p minecraft:hunger 2 255 true
-/effect give @p minecraft:hunger infinite 255 true
-/effect clear
-/damage @p 19
-/damage @p 14
-/damage @p 19
-/damage @p 10.
-/damage @p 19
-/damage @p 10l
-/damage @p 10
 /damage @p 19
 /
 /damage @p 19
@@ -48,3 +19,32 @@
 /
 /summon minecraft:enderman
 /kill
+/damage @p 19
+/clear
+/damage @p 19
+/kill
+/
+/damage @p 19
+/kill
+/damage @p 19
+/kill
+/damage @p 19
+/kill
+/damage @p 19
+/kill
+/damage @p 19
+/kill
+/damage @p 19
+/kill
+/damage @p 19
+/kill
+/damage @p 19
+/give @p minecraft:cooked_beef 64
+/kill
+/damage @p 19
+/kill
+/damage @p 19
+/kill
+/damage @p 19
+/
+/damage @p 19

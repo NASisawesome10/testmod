@@ -20,8 +20,7 @@
     "ServerPlayerEntityMixin"
   ],
   "client": [
-    "AnvilScreenMixin",
-    "ExampleMixin"
+    "AnvilScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1

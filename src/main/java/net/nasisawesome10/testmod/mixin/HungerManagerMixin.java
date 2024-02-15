@@ -14,20 +14,20 @@ import org.spongepowered.asm.mixin.injection.ModifyConstant;
 public class HungerManagerMixin {
     @ModifyConstant(method = "update", constant = @Constant(intValue = 18))
     public int foodHealing(int foodToHeal) {
-        return foodToHeal = 10;
+        return foodToHeal = 11;
     }
     // Removes Fast Healing
     @ModifyConstant(method = "update", constant = @Constant(intValue = 20))
     public int removeFastHealing(int foodToFastHeal) {
-        return foodToFastHeal = -1;
+        return foodToFastHeal = Integer.MAX_VALUE;
     }
     @ModifyConstant(method = "update", constant = @Constant(intValue = 80))
     public int foodHealingDifficulty(int foodToFastHeal, PlayerEntity player) {
         Difficulty difficulty = player.getWorld().getDifficulty();
         return switch (difficulty) {
-            case HARD -> foodToFastHeal;
-            case NORMAL -> foodToFastHeal /= 2;
-            case EASY -> foodToFastHeal /= 4;
+            case HARD -> foodToFastHeal = 60;
+            case NORMAL -> foodToFastHeal /= 4;
+            case EASY -> foodToFastHeal /= 6;
             default -> foodToFastHeal /= 2;
         };
     }
