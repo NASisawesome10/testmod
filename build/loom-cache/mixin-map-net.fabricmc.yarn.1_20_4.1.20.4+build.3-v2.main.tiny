@@ -4,7 +4,11 @@ FIELD	net/nasisawesome10/testmod/mixin/AnvilScreenHandlerMixin	Lnet/minecraft/sc
 FIELD	net/nasisawesome10/testmod/mixin/AnvilScreenHandlerMixin	I	repairItemUsage	field_7776
 FIELD	net/nasisawesome10/testmod/mixin/MobEntityMixin	Lnet/minecraft/entity/LivingEntity;	target	field_6199
 FIELD	net/nasisawesome10/testmod/mixin/PlayerEntityMixin	I	experienceLevel	field_7520
+FIELD	net/nasisawesome10/testmod/mixin/PotionItemMixin	I	MAX_USE_TIME	field_30917
 METHOD	net/nasisawesome10/testmod/mixin/AnvilScreenHandlerMixin	()I	getLevelCost	method_17369
 METHOD	net/nasisawesome10/testmod/mixin/DamageUtilMixin	(FFF)F	getDamageLeft	method_5496
 METHOD	net/nasisawesome10/testmod/mixin/DamageUtilMixin	(FF)F	getInflictedDamage	method_5497
 METHOD	net/nasisawesome10/testmod/mixin/PlayerEntityMixin	()I	getNextLevelExperience	method_7349
+METHOD	net/nasisawesome10/testmod/mixin/PotionItemMixin	(Lnet/minecraft/item/ItemStack;)I	getMaxUseTime	method_7881
+METHOD	net/nasisawesome10/testmod/mixin/ServerPlayerEntityMixin	(DDD)Z	isZero	method_54722
+METHOD	net/nasisawesome10/testmod/mixin/ServerPlayerEntityMixin	(DDD)V	increaseTravelMotionStats	method_54720

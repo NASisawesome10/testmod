@@ -1,50 +1,50 @@
-/xp set @p 0 levels
-/xp add @p 9999
-/effect give @p minecraft:haste infinite 99 true
+/give @p minecraft:apple 64
+/damage @p 19
+/damage @p 17
+/damage @p 4
+/damage @p 17
+/gamerule keepInventory true
+/give @p minecraft:apple 64
+/damage @p 19
+/kill
+/damage @p 19
+/spawnpoint
+/kill
+/damage @p 19
+/effect give @p minecraft:hunger infinite 2 true
 /effect clear
-/give @p netherite_sword{Damage:30}
-/give @p netherite_sword{Damage:300}
-/give @p netherite_sword{Damage:1500}
-/xp add @p 99999
-/give @p netherite_sword{Damage:1500,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3},{id:sweeping,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}
-/give @p netherite_sword{Damage:2400,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3},{id:sweeping,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}
-/give @p netherite_sword{Damage:24000,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3},{id:sweeping,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}
-/give @p netherite_sword{Damage:24000,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3},{id:sweeping,lvl:3},{id:unbreaking,lvl:3}]}
-/give @p netherite_sword{Damage:24000,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3}]}
-/give @p netherite_sword{Damage:200,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3}]}
-/give @p netherite_sword{Damage:2000,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3},{id:sweeping,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}
-/give @p netherite_sword{Damage:2000,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2}]}
-/give @p netherite_sword{Damage:2000}
-/give @p netherite_sword{Damage:2000,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3},{id:sweeping,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}
-/give @p minecraft:command_block
-/xp set @p 0
-/xp set @p 0 levels
-/give @p netherite_sword{Damage:2000,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3},{id:sweeping,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}
-/effect give @p minecraft:regeneration 3 255 true
-/effect give @p minecraft:saturation 3 255 true
-/give @p netherite_sword{Damage:2000,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3},{id:sweeping,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}
-/xp set @p 0
-/xp set @p 0 levels
-/CLEAR
-/clear
-/give @p netherite_sword{Damage:2000,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3},{id:sweeping,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}
-/summon minecraft:spider
-/clear
-/give @p netherite_sword{Damage:2000,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3},{id:sweeping,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}
-/clear
-/give @p minecraft:netherite_chestplate{Damage:2000,Enchantments:[{id:mending,lvl:1}]}
-/locate biome minecraft:end_barrens
-/tp @s 804 49 -704
-/effect give @p minecraft:night_vision infinite 255 true
-/xp set @p 0
-/xp set @p 0 levels
-/xp add Player854 100
-/xp set @p 0 levels
-/effect give @p minecraft:strength infinite 255 true
-/xp query
-/xp query @p
-/xp query @p points
-/clear
-/give @p netherite_sword{Damage:2000,Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3},{id:sweeping,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}
-/effect cl
+/damage 10
+/damage @p 10
+/give @p minecraft:potato
+/give @p minecraft:potato 65
+/effect give @p minecraft:hunger 2 255 true
+/effect give @p minecraft:hunger infinite 255 true
 /effect clear
+/damage @p 19
+/damage @p 14
+/damage @p 19
+/damage @p 10.
+/damage @p 19
+/damage @p 10l
+/damage @p 10
+/damage @p 19
+/
+/damage @p 19
+/give @p minecraft:copper_ore
+/give @p minecraft:netherite_pickaxe
+/clear
+/give @p minecraft:netherite_helmet
+/give @p minecraft:netherite_chestplate
+/give @p minecraft:netherite_leggings
+/give @p minecraft:netherite_bootss
+/give @p minecraft:netherite_boots
+/enchant @p minecraft:protection 4
+/give @p minecraft:netherite_sword
+/summon minecraft:ravager
+/summon minecraft:enderman
+/
+/summon minecraft:enderman
+/give @p minecraft:cooked_beef 64
+/
+/summon minecraft:enderman
+/kill

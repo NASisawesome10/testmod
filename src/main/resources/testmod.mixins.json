@@ -10,10 +10,14 @@
     "CropBlockMixin",
     "DamageUtilMixin",
     "ExperienceBottleEntityMixin",
+    "HungerManagerMixin",
+    "ItemMixin",
     "ItemStackMixin",
     "MendingEnchantmentMixin",
     "MobEntityMixin",
-    "PlayerEntityMixin"
+    "PlayerEntityMixin",
+    "PotionItemMixin",
+    "ServerPlayerEntityMixin"
   ],
   "client": [
     "AnvilScreenMixin",

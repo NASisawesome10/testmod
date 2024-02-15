@@ -17,6 +17,6 @@ public class MobEntityMixin {
 
     @Inject(method = "getXpToDrop", at = @At("RETURN"), cancellable = true)
     public void getXpToDrop(CallbackInfoReturnable<Integer> cir) {
-        cir.setReturnValue(cir.getReturnValue() * 6);
+        cir.setReturnValue(cir.getReturnValue() * 2);
     }
 }

@@ -3,6 +3,8 @@ import net.minecraft.entity.player.PlayerEntity;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.Shadow;
+import org.spongepowered.asm.mixin.injection.Constant;
+import org.spongepowered.asm.mixin.injection.ModifyConstant;
 
 @Mixin(PlayerEntity.class)
 public class PlayerEntityMixin {
@@ -17,5 +19,15 @@ public class PlayerEntityMixin {
     @Overwrite()
     public int getNextLevelExperience() {
         return 100;
+    }
+
+    @ModifyConstant(method = "jump", constant = @Constant (floatValue = 0.2f))
+    public float jumpSprintingExhaustion(float jSExhaustion) {
+        return jSExhaustion = 0.1f;
+    }
+
+    @ModifyConstant(method = "jump", constant = @Constant (floatValue = 0.05f))
+    public float jumpExhaustion(float exhaustion) {
+        return exhaustion = 0.025f;
     }
 }
