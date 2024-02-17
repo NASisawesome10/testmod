@@ -1,8 +1,3 @@
-/damage @p 19
-/
-/damage @p 19
-/give @p minecraft:copper_ore
-/give @p minecraft:netherite_pickaxe
 /clear
 /give @p minecraft:netherite_helmet
 /give @p minecraft:netherite_chestplate
@@ -48,3 +43,8 @@
 /damage @p 19
 /
 /damage @p 19
+/kill
+/effect give @p minecraft:hunger 3 255 true
+/damage @p 10
+/effect give @p minecraft:saturation 2 255 true
+/kill

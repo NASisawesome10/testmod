@@ -1,0 +1,27 @@
+{
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2024-02-17 01:17:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-02-17 01:17:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2024-02-17 01:17:44 -0600"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2024-02-17 01:17:44 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3700
+}

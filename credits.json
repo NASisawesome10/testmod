@@ -1,18 +1,32 @@
 {
-	"testmod": {
+	"Mod": {
 		"title": "Mod",
+		"path": "testmod",
 		"author": "NASisawesome10",
 		"link": "https://linktr.ee/nasisawesome10"
 	},
-	"testmod\\src\\main\\resources\\assets\\testmod\\sounds\\dig\\end_stone": {
+	"End Stone Digging and Placing sound effects.": {
 		"title": "End Stone Digging and Placing sound effects.",
+		"path": "testmod\\src\\main\\resources\\assets\\testmod\\sounds\\dig\\end_stone",
 		"author": "gristi",
 		"link": "https://freesound.org/people/gristi/sounds/562192/"
 	},
-	"testmod\\src\\main\\resources\\assets\\testmod\\sounds\\step\\end_stone": {
+	"End Stone Walking sound effects.": {
 		"title": "End Stone Walking sound effects.",
+		"path": "testmod\\src\\main\\resources\\assets\\testmod\\sounds\\step\\end_stone",
 		"author": "florianreichelt",
 		"link": "https://www.instagram.com/florianreichelt/"
+	},
+	"Anvil Code": {
+		"title": "Anvil Code",
+		"path": "testmod\\src\\main\\ava\\net\\nasisawesome10\\testmod\\mixin",
+		"author": "svenhjol",
+		"link": "https://github.com/svenhjol/Charm"
+	},
+	"Stamina Code": {
+		"title": "Stamina Code",
+		"path": "testmod\\src\\main\\ava\\net\\nasisawesome10\\testmod",
+		"author": "Minenash",
+		"link": "https://github.com/Minenash/walk-jog-run"
 	}
-
 }

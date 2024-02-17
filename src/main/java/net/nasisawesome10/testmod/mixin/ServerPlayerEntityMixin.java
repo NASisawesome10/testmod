@@ -5,15 +5,22 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.registry.tag.FluidTags;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.stat.Stats;
+import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
+import net.nasisawesome10.testmod.TestModClient;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Shadow;
+import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.ModifyArg;
+import org.spongepowered.asm.mixin.injection.Redirect;
 
 
 @Mixin(ServerPlayerEntity.class)
 public abstract class ServerPlayerEntityMixin extends PlayerEntity{
+    TestModClient testModClient;
+
     public ServerPlayerEntityMixin(World world, BlockPos pos, float yaw, GameProfile gameProfile) {
         super(world, pos, yaw, gameProfile);
     }
@@ -55,7 +62,6 @@ public abstract class ServerPlayerEntityMixin extends PlayerEntity{
                 if (this.isSprinting()) {
                     this.increaseStat(Stats.SPRINT_ONE_CM, i);
                     this.addExhaustion(0.065f * (float)i * 0.01f);
-                    System.out.println("SPRINT");
                 } else if (this.isInSneakingPose()) {
                     this.increaseStat(Stats.CROUCH_ONE_CM, i);
                     this.addExhaustion(0.0f * (float)i * 0.01f);

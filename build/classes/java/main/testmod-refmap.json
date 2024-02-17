@@ -13,6 +13,9 @@
       "Lnet/minecraft/entity/player/PlayerAbilities;creativeMode:Z": "Lnet/minecraft/class_1656;field_7477:Z",
       "drawForeground": "Lnet/minecraft/class_471;method_2388(Lnet/minecraft/class_332;II)V"
     },
+    "net/nasisawesome10/testmod/mixin/BlockMixin": {
+      "afterBreak": "Lnet/minecraft/class_2248;method_9556(Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_2586;Lnet/minecraft/class_1799;)V"
+    },
     "net/nasisawesome10/testmod/mixin/BlocksMixin": {
       "(Lnet/minecraft/block/AbstractBlock$Settings;)Lnet/minecraft/block/Block;": "(Lnet/minecraft/class_4970$class_2251;)Lnet/minecraft/class_2248;",
       "<clinit>": "Lnet/minecraft/class_2246;<clinit>()V"
@@ -56,6 +59,9 @@
       "net/nasisawesome10/testmod/mixin/AnvilScreenMixin": {
         "Lnet/minecraft/entity/player/PlayerAbilities;creativeMode:Z": "Lnet/minecraft/class_1656;field_7477:Z",
         "drawForeground": "Lnet/minecraft/class_471;method_2388(Lnet/minecraft/class_332;II)V"
+      },
+      "net/nasisawesome10/testmod/mixin/BlockMixin": {
+        "afterBreak": "Lnet/minecraft/class_2248;method_9556(Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_2586;Lnet/minecraft/class_1799;)V"
       },
       "net/nasisawesome10/testmod/mixin/BlocksMixin": {
         "(Lnet/minecraft/block/AbstractBlock$Settings;)Lnet/minecraft/block/Block;": "(Lnet/minecraft/class_4970$class_2251;)Lnet/minecraft/class_2248;",

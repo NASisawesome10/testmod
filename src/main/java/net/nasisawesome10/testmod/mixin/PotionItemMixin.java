@@ -8,10 +8,10 @@ import org.spongepowered.asm.mixin.injection.*;
 @Mixin(PotionItem.class)
 public abstract class PotionItemMixin {
     @Mutable
-    @Shadow @Final private static int MAX_USE_TIME = 16;
+    @Shadow @Final private static int MAX_USE_TIME = 15;
     @Overwrite
     public int getMaxUseTime(ItemStack stack) {
-        return 16;
+        return 15;
     }
 }
 

@@ -15,6 +15,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public class ItemMixin {
     @ModifyConstant(method = "getMaxUseTime", constant = @Constant(intValue = 32))
     public int reduceTime(int newTime) {
-        return newTime = 22;
+        return newTime = 20;
     }
 }

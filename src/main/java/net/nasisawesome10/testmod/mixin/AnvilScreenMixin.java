@@ -31,7 +31,7 @@ abstract class AnvilScreenMixin extends ForgingScreen<AnvilScreenHandler> {
             )
     )
     private boolean hookMaximumCostCheck(PlayerAbilities abilities) {
-        System.out.println("ANVILLLLLLL");
+        //System.out.println("ANVILLLLLLL");
         return abilities.creativeMode = true;
     }
 
